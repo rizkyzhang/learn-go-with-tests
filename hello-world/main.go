@@ -3,17 +3,21 @@ package main
 import "fmt"
 
 
-func Hello(name, language string) string {
-	if (name == "") {
-		name = "World"
-	}
-
+func greetingPrefix(language string) string {
 	helloMap := map[string]string{
 		"German": "Hallo",
 		"": "Hello",
 	}
 
-	return fmt.Sprintf("%s, %s", helloMap[language], name)
+	return helloMap[language]
+}
+
+func Hello(name, language string) string {
+	if (name == "") {
+		name = "World"
+	}
+
+	return fmt.Sprintf("%s, %s", greetingPrefix(language), name)
 }
 
 func main() {
