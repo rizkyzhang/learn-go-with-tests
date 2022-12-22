@@ -1,0 +1,25 @@
+{
+  "folders": [
+    {
+      "path": "."
+    },
+    {
+      "path": "array-slice"
+    },
+    {
+      "path": "goroutine-channel"
+    },
+    {
+      "path": "hello-world"
+    },
+    {
+      "path": "integer"
+    },
+    {
+      "path": "iteration"
+    },
+    {
+      "path": "pointer"
+    }
+  ]
+}
